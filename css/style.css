@@ -1,7 +1,75 @@
 /*  font file*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-/* --------------------------common styles ----------------------------*/
+/* -----------------------------mobile responsive----------------------------- */
+
+@media screen and (max-width: 676px) {
+  .menubar {
+    display: none;
+  }
+  .top-part {
+    background-color: rgb(17, 61, 158);
+    height: 1000px;
+  }
+
+  .banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .menu-title {
+    font-size: 36px;
+    width: 278px;
+    height: 138px;
+    font-size: 36px;
+  }
+
+  .button {
+    background-color: #da9a29;
+    padding: 10px 15px;
+  }
+  .button a {
+    margin-right: 5px;
+  }
+  .fa-arrow-right {
+    color: #fff;
+  }
+  .half-width img {
+    width: 329px;
+    height: 259.17px;
+  }
+  /* players  */
+
+  .players {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 27px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 100px;
+    grid-gap: -30px;
+  }
+  .player {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin: 24px 0;
+  }
+  .player img {
+    width: 300px;
+    height: 256px;
+    background-color: #fff;
+  }
+  .name {
+    margin-top: 16px;
+  }
+  .player-details {
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+}
+
+/* --------------------------common styles -----------------------------------------------*/
 
 * {
   margin: 0;
@@ -11,6 +79,7 @@
 body {
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 main {
   display: flex;
@@ -21,11 +90,10 @@ main {
   width: 70%;
 }
 
-/* menu-1st-part styles */
+/* -----------------------------------menu-1st-part styles -------------------------------------*/
 .top-part {
   background-color: rgb(17, 61, 158);
   padding-top: 40px;
-
   height: 650px;
 }
 .menu {
@@ -54,7 +122,7 @@ main {
   margin-right: 10px;
 }
 
-/* menu-2nd-part styles */
+/* ------------------menu-2nd-part styles--------------------------- */
 
 .menu-2nd-part {
   position: relative;
