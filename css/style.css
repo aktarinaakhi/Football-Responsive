@@ -95,6 +95,7 @@ main {
   justify-items: center;
   align-items: center;
   margin: 70px 0;
+  grid-gap: -30px;
 }
 .player {
   width: 330px;
