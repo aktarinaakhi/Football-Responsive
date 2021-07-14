@@ -101,7 +101,6 @@ main {
   height: 474px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   padding: 15px;
-  margin-right: 30px;
   margin-bottom: 27px;
 }
 .player img {
@@ -135,6 +134,53 @@ main {
   font-size: 16px;
   margin-top: 30px;
   margin-bottom: 24px;
+}
+
+/* contact section part styles */
+
+.contact {
+  background-image: url(/images/3jpg.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.85;
+  background-position: left;
+  margin-bottom: 70px;
+}
+.contact-details {
+  width: 600px;
+  height: 830px;
+  position: relative;
+  left: 180px;
+}
+.contact-title {
+  color: #fff;
+  font-size: 48px;
+  margin-top: 50px;
+}
+.contact-info {
+  color: #e0d8d8;
+  margin: 30px 0;
+}
+.contact label {
+  color: #fff;
+}
+.contact input {
+  padding: 10px 100px;
+  margin-bottom: 15px;
+}
+form p {
+  color: #e0d8d8;
+  margin-left: 20px;
+}
+
+.subscribe {
+  background-color: rgb(17, 61, 158);
+  padding: 20px 100px;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  margin-top: 30px;
 }
 
 /* --------------------footer part styels ------------------------*/
