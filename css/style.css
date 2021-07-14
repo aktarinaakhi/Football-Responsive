@@ -12,8 +12,13 @@ body {
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .container {
-  width: 1584px;
+  width: 70%;
 }
 
 /* menu-1st-part styles */
@@ -84,16 +89,12 @@ body {
 /* players blog styles */
 
 .players {
-  display: flex;
-  /* grid-template-columns: repeat(3, 1fr); */
-  /* grid-row-gap: 27px;
-  grid-gap: 10px; */
-  /* grid-column-gap: 30px; */
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 27px;
+  justify-items: center;
   align-items: center;
-
-  margin: 70px 200px;
+  margin: 70px 0;
 }
 .player {
   width: 330px;
