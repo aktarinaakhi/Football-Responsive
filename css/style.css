@@ -143,15 +143,42 @@ main {
   margin-bottom: 24px;
 }
 
+/* counter part styles */
+
+.count {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.counter-part {
+  display: flex;
+  justify-content: center;
+  padding: 80px 70px;
+}
+.counter {
+  display: flex;
+  margin: 0 70px;
+}
+
+.counter img {
+  width: 90px;
+  height: 90px;
+  margin-right: 12px;
+}
+.number {
+  font-size: 42px;
+  font-family: Oswald;
+  margin: 3px 0 11px;
+}
+
 /* contact section part styles */
 
 .contact {
-  background-image: url(/images/3.png);
+  background: #da9a29;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
   height: 680px;
+  margin-top: 65px;
 }
 .contact-details {
   width: 600px;
@@ -177,7 +204,7 @@ form p {
 }
 
 .subscribe {
-  background-color: #da9a29;
+  background-color: rgb(17, 61, 158);
   padding: 20px 100px;
   color: #fff;
   border: none;
@@ -190,33 +217,6 @@ form p {
   position: rela;
 }
 
-/* counter part styles */
-
-.count {
-  background-color: #da9a29;
-  width: 100%;
-}
-.counter-part {
-  display: flex;
-  justify-content: center;
-  padding: 80px 0;
-}
-.counter {
-  display: flex;
-  margin-right: 70px;
-  /* color: #fff; */
-}
-
-.counter img {
-  width: 90px;
-  height: 90px;
-  margin-right: 12px;
-}
-.number {
-  font-size: 42px;
-  font-family: Oswald;
-  margin: 3px 0 11px;
-}
 /* -------------------footer part styles --------------------*/
 .footer {
   display: flex;
