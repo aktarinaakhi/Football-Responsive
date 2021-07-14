@@ -140,13 +140,13 @@ main {
 /* contact section part styles */
 
 .contact {
-  background-image: url(/images/3jpg.jpg);
+  background-image: url(/images/3.png);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.85;
   background-position: left;
   margin-bottom: 70px;
+  height: 830px;
 }
 .contact-details {
   width: 600px;
@@ -176,16 +176,18 @@ form p {
 }
 
 .subscribe {
-  background-color: rgb(17, 61, 158);
+  background-color: rgb(44, 44, 44);
   padding: 20px 100px;
   color: #fff;
   border: none;
   font-size: 20px;
   margin-top: 30px;
 }
-
-/* --------------------footer part styels ------------------------*/
-
+.contact-details {
+  width: 600px;
+  height: 830px;
+  position: rela;
+}
 .footer {
   display: flex;
   flex-direction: column;
