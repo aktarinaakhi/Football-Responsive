@@ -151,12 +151,10 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
-  margin-bottom: 70px;
   height: 680px;
 }
 .contact-details {
   width: 600px;
-
   position: relative;
   left: 180px;
 }
@@ -179,7 +177,7 @@ form p {
 }
 
 .subscribe {
-  background-color: rgb(17, 61, 158);
+  background-color: #da9a29;
   padding: 20px 100px;
   color: #fff;
   border: none;
@@ -191,11 +189,40 @@ form p {
   height: 830px;
   position: rela;
 }
+
+/* counter part styles */
+
+.count {
+  background-color: #da9a29;
+  width: 100%;
+}
+.counter-part {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+.counter {
+  display: flex;
+  margin-right: 70px;
+  /* color: #fff; */
+}
+
+.counter img {
+  width: 90px;
+  height: 90px;
+  margin-right: 12px;
+}
+.number {
+  font-size: 42px;
+  font-family: Oswald;
+  margin: 3px 0 11px;
+}
+/* -------------------footer part styles --------------------*/
 .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 63px;
+  margin: 63px 0;
 }
 .footer-title img {
   width: 483.87px;
