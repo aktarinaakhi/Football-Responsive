@@ -46,7 +46,7 @@ main {
   margin-right: 36px;
 }
 .rightbar span {
-  background-color: #e02c6d;
+  background-color: #da9a29;
   color: #fff;
   padding: 11px 26px;
 }
@@ -66,11 +66,11 @@ main {
 .half-width .menu-title {
   color: #fff;
   margin-bottom: 36px;
-  /* width: 485px;
-  height: 230px; */
+  width: 400px;
+  height: 130px;
 }
 .button {
-  background-color: #e02c6d;
+  background-color: #da9a29;
   padding: 10px 25px;
 }
 .button a {
@@ -140,29 +140,26 @@ main {
 /* contact section part styles */
 
 .contact {
-  background-image: url(/images/3.png);
+  background: #da9a29;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
   margin-bottom: 70px;
-  height: 830px;
+  height: 680px;
 }
 .contact-details {
   width: 600px;
-  height: 830px;
+
   position: relative;
   left: 180px;
 }
 .contact-title {
   color: #fff;
   font-size: 48px;
-  margin-top: 50px;
+  margin: 40px 0;
 }
-.contact-info {
-  color: #e0d8d8;
-  margin: 30px 0;
-}
+
 .contact label {
   color: #fff;
 }
@@ -176,7 +173,7 @@ form p {
 }
 
 .subscribe {
-  background-color: rgb(44, 44, 44);
+  background-color: rgb(17, 61, 158);
   padding: 20px 100px;
   color: #fff;
   border: none;
